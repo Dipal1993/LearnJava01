@@ -3,11 +3,13 @@ public class Calculator {
     static int j = 20;
 
 
+
     static void addition()
     {
+        int a= 10;
+        a+=2;
+        System.out.println("Add the value in a"+(a));
         System.out.println("Addition of " + i + " and " + j + " = " + (i + j));
-
-
     }
 
     static void subtraction()
